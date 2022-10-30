@@ -1,0 +1,444 @@
+<Q_DATA>
+<Q_TITLE>
+338
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше или равна 12?<br>
+<img src='2.TV/G_3_1.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,3
+
+
+</a_1>
+<a_2>
+0.3
+
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+339
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше или равна  -3?<br>
+<img src='2.TV/G_3_2.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,4
+
+
+
+</a_1>
+<a_2>
+0.4
+
+
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+340
+</Q_TITLE>
+<options>
+n=1
+type=7
+right=1
+max=2
+</options>
+<value>
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше или равна  -160?<br>
+<img src='2.TV/G_3_3.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+1
+
+
+</a_1>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше 12?<br>
+<img src='2.TV/G_3_1.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,7
+
+</a_1>
+<a_2>
+0.7
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+342
+</Q_TITLE>
+<options>
+n=1
+type=7
+right=1
+max=2
+</options>
+<value>
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше -15?<br>
+<img src='2.TV/G_3_2.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0
+
+
+</a_1>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+343
+</Q_TITLE>
+<options>
+n=1
+type=7
+right=1
+max=2
+</options>
+<value>
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше 0?<br>
+<img src='2.TV/G_3_3.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+1
+
+
+</a_1>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше 2?<br>
+<img src='2.TV/A_1.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,5
+
+</a_1>
+<a_2>
+0.5
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше 4.5?<br>
+<img src='2.TV/A_1.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,75
+
+</a_1>
+<a_2>
+0.75
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше 7?<br>
+<img src='2.TV/A_2.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,25
+
+</a_1>
+<a_2>
+0.25
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше 4?<br>
+<img src='2.TV/A_2.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,5
+
+</a_1>
+<a_2>
+0.5
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше 4?<br>
+<img src='2.TV/A_3.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,5
+
+</a_1>
+<a_2>
+0.5
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше 5.5?<br>
+<img src='2.TV/A_5.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,6
+
+</a_1>
+<a_2>
+0.6
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше 6.3?<br>
+<img src='2.TV/A_5.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,4
+
+</a_1>
+<a_2>
+0.4
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет больше 12?<br>
+<img src='2.TV/A_6.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,2
+
+</a_1>
+<a_2>
+0.2
+
+</a_2>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+341
+</Q_TITLE>
+<options>
+n=2
+type=7
+right=2
+max=2
+</options>
+<value>
+1
+1
+</value>
+<question>
+Чему равна вероятность того, что случайная величина, имеющая плотность распределения, показанную на 
+рисунке, будет меньше 10?<br>
+<img src='2.TV/A_6.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+0,4
+
+</a_1>
+<a_2>
+0.4
+
+</a_2>
+</Q_DATA>

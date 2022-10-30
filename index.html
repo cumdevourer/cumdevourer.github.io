@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        function headerClick() { 
+            this.nextElementSibling.classList.toggle("spoiler-body");
+        }
+
+       $(document).ready(function(){
+          $('#common').load("ОбщиеВопросы.html");
+          $('#chislModel').load("ЧисловМодел.html");
+          $('#teorver').load("ТеорВер.html");
+
+          const headers = document.querySelectorAll("[data-name='spoiler-title']");
+          headers.forEach(function (item) {item.addEventListener("click", headerClick);});
+
+       });
+    </script>
+    <style>
+        .spoiler-body {
+            display: none;
+        }   
+        .list-header {
+            font-weight: 700;
+            background-color: rgb(187, 238, 235);
+        }
+        .list-group-item {
+            position: relative;
+            display: block;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: -1px;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+        }
+    </style>
+</head>
+<body>
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Общие вопросы</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="common"></div>
+        </div> 
+    </div>
+    
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Теория вероятности</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="teorver"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Числовое моделировние</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="chislModel"></div>
+        </div> 
+    </div>
+</body>

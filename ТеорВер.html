@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+       $(document).ready(function(){
+          $('#Определения').load("ТеорВер/ТеорВер_Определения.txt.html");
+          $('#Свойства').load("ТеорВер/ТеорВер_Свойства.txt.html");
+          $('#Размерности').load("ТеорВер/ТеорВер_Размерности.txt.html");
+          $('#Моментыdet').load("ТеорВер/ТеорВер_Моменты_det.txt.html");
+          $('#Задачи_uni1').load("ТеорВер/ТеорВер_Задачи_uni1.txt.html");
+          $('#Задачи_uni2').load("ТеорВер/ТеорВер_Задачи_uni2.txt.html");
+          $('#Задачи_uni3').load("ТеорВер/ТеорВер_Задачи_uni3.txt.html");
+          $('#Задачи_uni4').load("ТеорВер/ТеорВер_Задачи_uni4.txt.html");
+          $('#Задачи_uni5').load("ТеорВер/ТеорВер_Задачи_uni5.txt.html");
+          $('#Задачи_uni6').load("ТеорВер/ТеорВер_Задачи_uni6.txt.html");
+          
+          $('#Задачи_det').load("ТеорВер/ТеорВер_Задачи_det1.txt.html");
+          $('#Задачи_exp').load("ТеорВер/ТеорВер_Задачи_exp.txt.html");
+          $('#КоэфВар').load("ТеорВер/ТеорВер_Коэф_Вариации.txt.html");
+          $('#Эрланг').load("ТеорВер/ТеорВер_Эрланг.txt.html");
+          $('#Задачи_ДСВ1').load("ТеорВер/ТеорВер_Задачи_ДСВ1.txt.html");
+          $('#Задачи_ДСВ2').load("ТеорВер/ТеорВер_Задачи_ДСВ2.txt.html");
+          $('#Задачи_ДСВ3').load("ТеорВер/ТеорВер_Задачи_ДСВ3.txt.html");
+          $('#Задачи_дисп').load("ТеорВер/ТеорВер_Задачи_дисперсия.txt.html");
+          $('#Задачи_КВ').load("ТеорВер/ТеорВер_Задачи_КВ.txt.html");
+          $('#Задачи_M').load("ТеорВер/ТеорВер_Задачи_M.txt.html");
+          $('#Задачи_А2').load("ТеорВер/ТеорВер_Задачи_А2.txt.html");
+          $('#Аппроксимация').load("ТеорВер/ТеорВер_Аппроксимация.txt.html");
+          $('#Рис_exp').load("ТеорВер/ТеорВер_Рисунки_exp.txt.html");
+          $('#Рис_fxfx').load("ТеорВер/ТеорВер_Рисунки_F(x)_f(x).txt.html");
+          $('#Рис_mx').load("ТеорВер/ТеорВер_Рис_M.txt.html");
+          $('#Рис_p').load("ТеорВер/ТеорВер_Рис_поиск_P.txt.html");
+          $('#Рис_fx1').load("ТеорВер/ТеорВер_Рис_на_f(x)1.txt.html");
+          $('#Рис_fx2').load("ТеорВер/ТеорВер_Рис_на_f(x)2.txt.html");
+          $('#Рис_fx3').load("ТеорВер/ТеорВер_Рис_на_f(x)3.txt.html");
+          $('#Рис_mxfx').load("ТеорВер/ТеорВер_Рис_M_на_f(x).txt.html");
+
+
+
+          const headers = document.querySelectorAll("[data-name='spoiler-title']");
+          headers.forEach(function (item) {item.addEventListener("click", headerClick);});
+       });
+    </script>
+</head>
+<body>
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Определения</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Определения"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Свойства F(x), f(x)</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Свойства"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Размерности</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Размерности"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Моменты det</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Моментыdet"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи для uni</div>
+        <div class="spoiler-body">
+            <div class="list-group-item">
+                <div id="Задачи_uni1"></div>
+                <div id="Задачи_uni2"></div>
+                <div id="Задачи_uni3"></div>
+                <div id="Задачи_uni4"></div>
+                <div id="Задачи_uni5"></div>
+                <div id="Задачи_uni6"></div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи для det</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Задачи_det"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи для exp</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Задачи_exp"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Коэффициент вариации</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="КоэфВар"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Распределение Эрланга</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Эрланг"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи ДСВ</div>
+        <div class="spoiler-body">
+            <div class="list-group-item">
+                <div id="Задачи_ДСВ1"></div>
+                <div id="Задачи_ДСВ2"></div>
+                <div id="Задачи_ДСВ3"></div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи D=A2-M^2</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Задачи_дисп"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи КВ</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Задачи_КВ"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи M=sqr(A2-D)</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Задачи_M"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Задачи A2=s^2+(s%n)^2</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Задачи_А2"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Аппроксимация</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Аппроксимация"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Рисунки exp</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Рис_exp"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Рисунки F(x) f(x)</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Рис_fxfx"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Рисунки M(x) на F(x)</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Рис_mx"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Рисунки поиск P</div>
+        <div class="spoiler-body">
+            <div class="list-group-item" id="Рис_p"></div>
+        </div> 
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Рисунки f(x)</div>
+        <div class="spoiler-body">
+            <div class="list-group-item">
+                <div id="Рис_fx1"></div>
+                <div id="Рис_fx2"></div>
+                <div id="Рис_fx3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spoiler-group">
+        <div class="list-header list-group-item" data-name="spoiler-title">Рисунки M(x) на f(x)</div>
+        <div class="spoiler-body">
+            <div class="list-group-item">
+                <div id="Рис_mxfx"></div>
+            </div>
+        </div>
+    </div>
+
+</body>

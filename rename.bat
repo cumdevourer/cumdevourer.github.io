@@ -1,0 +1,1 @@
+get-childitem *.html | foreach {rename-item $_ $_.name.replace(" ","_")}

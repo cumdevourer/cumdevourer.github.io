@@ -1,0 +1,651 @@
+<Q_DATA>
+<Q_TITLE>
+3
+</Q_TITLE>
+<options>
+n=6
+type=2
+right=2
+max=2
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Пусть F(x) - функция распределения, а f(x) - плотность распределения непрерывной случайной величины Х. Чему 
+равна 
+вероятность того, что  X попадет в интервал [a; b] ?
+</question>
+<description>
+</description>
+<a_1>
+<img src='2.TV\F_1.JPG'>
+<br>
+
+
+
+
+
+
+
+
+
+
+</a_1>
+<a_2>
+<img src='2.TV\F_2.JPG'>
+<br>
+
+
+
+
+
+
+
+
+
+
+</a_2>
+<a_3>
+<img src='2.TV\F_3.JPG'>
+
+
+
+
+
+
+
+
+
+
+</a_3>
+<a_4>
+<img src='2.TV\F_4.JPG'>
+
+
+
+
+
+
+
+
+
+
+</a_4>
+<a_5>
+<img src='2.TV\F_5.JPG'>
+
+
+
+
+
+
+
+
+
+
+
+</a_5>
+<a_6>
+<img src='2.TV\F_6.JPG'>
+
+
+
+
+
+
+
+
+
+
+
+</a_6>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+10
+</Q_TITLE>
+<options>
+n=6
+type=2
+right=2
+max=2
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Пусть F(x) - функция распределения, а f(x) - плотность распределения непрерывной случайной величины Х. Пусть 
+также a < b. Укажите, 
+что можно рассчитать с помощью данной формулы: <br><img src='2.TV\H_1.JPG'>
+</question>
+<description>
+</description>
+<a_1>
+P(a < x < b).
+
+
+
+
+
+
+</a_1>
+<a_2>
+Вероятность того, что величина Х попадет в интервал [a; b] .
+
+
+
+
+
+
+</a_2>
+<a_3>
+P(x < a < b).
+
+
+
+
+
+
+</a_3>
+<a_4>
+Дисперсию Х.
+
+
+
+
+
+
+</a_4>
+<a_5>
+F(b) + F(a).
+
+
+
+
+
+
+</a_5>
+<a_6>
+Математическое ожидание X.
+
+
+
+
+
+
+</a_6>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+1
+</Q_TITLE>
+<Q_TITLE>
+1
+</Q_TITLE>
+<Q_TITLE>
+1
+</Q_TITLE>
+<Q_TITLE>
+1
+</Q_TITLE>
+<Q_TITLE>
+1
+</Q_TITLE>
+<options>
+n=6
+type=1
+right=1
+max=
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Функция распределения случайной величины …
+</question>
+<description>
+</description>
+<a_1>
+неубывающая
+</a_1>
+<a_2>
+невозрастающая
+</a_2>
+<a_3>
+может иметь любой характер
+</a_3>
+<a_4>
+принимает любые значения в области действительных чисел
+</a_4>
+<a_5>
+принимает значения в интервале от 0 до бесконечности
+</a_5>
+<a_6>
+определяется как производная от плотности распределения
+</a_6>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+13
+</Q_TITLE>
+<options>
+n=6
+type=2
+right=3
+max=2
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Плотность распределения случайной величины ...
+</question>
+<description>
+</description>
+<a_1>
+может быть как возрастающей функцией, так и убывающей
+
+
+
+
+
+</a_1>
+<a_2>
+может принимать любые положительные значения
+
+
+
+
+
+</a_2>
+<a_3>
+определяется как производная от функции распределения
+
+
+
+
+
+</a_3>
+<a_4>
+невозрастающая
+
+
+
+
+
+</a_4>
+<a_5>
+принимает значения в интервале [0, 1]
+
+
+
+
+
+</a_5>
+<a_6>
+неубывающая
+
+
+
+
+
+</a_6>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+2
+</Q_TITLE>
+<Q_TITLE>
+2
+</Q_TITLE>
+<Q_TITLE>
+2
+</Q_TITLE>
+<Q_TITLE>
+2
+</Q_TITLE>
+<Q_TITLE>
+2
+</Q_TITLE>
+<options>
+n=6
+type=1
+right=1
+max=
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Функция распределения случайной величины …
+</question>
+<description>
+</description>
+<a_1>
+принимает значения в интервале (0, 1)
+</a_1>
+<a_2>
+принимает любые положительные значения
+</a_2>
+<a_3>
+невозрастающая 
+</a_3>
+<a_4>
+может иметь любой характер
+</a_4>
+<a_5>
+может принимать отрицательные значения
+</a_5>
+<a_6>
+принимает значения от 0 до математического ожидания
+</a_6>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+347
+</Q_TITLE>
+<Q_TITLE>
+347
+</Q_TITLE>
+<Q_TITLE>
+347
+</Q_TITLE>
+<Q_TITLE>
+347
+</Q_TITLE>
+<Q_TITLE>
+347
+</Q_TITLE>
+<options>
+n=6
+type=1
+right=1
+max=
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Укажите формулу преобразования плотности распределения f(x) в функцию распределения F(x) для случайных 
+величин, определённых в области действительных чисел.
+</question>
+<description>
+</description>
+<a_1>
+<img src='2.TV\F2_2.JPG'>
+
+</a_1>
+<a_2>
+<img src='2.TV\F2_2_1.JPG'>
+
+</a_2>
+<a_3>
+<img src='2.TV\F2_2_2.JPG'>
+
+</a_3>
+<a_4>
+<img src='2.TV\F2_2_3.JPG'>
+
+</a_4>
+<a_5>
+<img src='2.TV\F2_2_40.JPG'>
+
+</a_5>
+<a_6>
+<img src='2.TV\F2_2_5.JPG'>
+
+</a_6>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+348
+</Q_TITLE>
+<Q_TITLE>
+348
+</Q_TITLE>
+<Q_TITLE>
+348
+</Q_TITLE>
+<Q_TITLE>
+348
+</Q_TITLE>
+<Q_TITLE>
+348
+</Q_TITLE>
+<options>
+n=5
+type=1
+right=1
+max=
+</options>
+<value>
+1
+1
+1
+1
+1
+</value>
+<question>
+Укажите формулу преобразования плотности распределения f(x) в функцию распределения F(x) для случайных 
+величин, определённых в области положительных чисел.
+</question>
+<description>
+</description>
+<a_1>
+<img src='2.TV\F2_2_40.JPG'>
+
+</a_1>
+<a_2>
+<img src='2.TV\F2_2_1.JPG'>
+</a_2>
+<a_3>
+<img src='2.TV\F2_2_2.JPG'>
+</a_3>
+<a_4>
+<img src='2.TV\F2_2_3.JPG'>
+</a_4>
+<a_5>
+<img src='2.TV\F2_2_5.JPG'>
+</a_5>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+303
+</Q_TITLE>
+<Q_TITLE>
+303
+</Q_TITLE>
+<Q_TITLE>
+303
+</Q_TITLE>
+<Q_TITLE>
+303
+</Q_TITLE>
+<Q_TITLE>
+303
+</Q_TITLE>
+<options>
+n=9
+type=2
+right=3
+max=3
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Какими свойствами обладает функция распределения F(x) случайной величины X?
+
+</question>
+<description>
+</description>
+<a_1>
+<img src='2.TV\F2_1_1.JPG'>
+
+
+
+
+
+
+</a_1>
+<a_2>
+<img src='2.TV\F2_1_2.JPG'>
+
+
+</a_2>
+<a_3>
+<img src='2.TV\F2_1_3.JPG'>
+
+
+</a_3>
+<a_4>
+<img src='2.TV\F2_1_4.JPG'>
+
+
+</a_4>
+<a_5>
+<img src='2.TV\F2_1_5.JPG'>
+
+
+</a_5>
+<a_6>
+<img src='2.TV\F2_1_6.JPG'>
+
+
+</a_6>
+<a_7>
+<img src='2.TV\F2_1_7.JPG'>
+
+
+</a_7>
+<a_8>
+<img src='2.TV\F2_1_8.JPG'>
+
+
+</a_8>
+<a_9>
+<img src='2.TV\F2_1_9.JPG'>
+
+
+</a_9>
+</Q_DATA>
+<Q_DATA>
+<Q_TITLE>
+304
+</Q_TITLE>
+<options>
+n=9
+type=2
+right=6
+max=3
+</options>
+<value>
+1
+1
+1
+1
+1
+1
+1
+1
+1
+</value>
+<question>
+Какими свойствами не обладает функция распределения F(x) случайной величины X?
+</question>
+<description>
+</description>
+<a_1>
+<img src='2.TV\F2_1_9.JPG'>
+
+
+
+</a_1>
+<a_2>
+<img src='2.TV\F2_1_8.JPG'>
+
+
+
+</a_2>
+<a_3>
+<img src='2.TV\F2_1_7.JPG'>
+
+
+
+</a_3>
+<a_4>
+<img src='2.TV\F2_1_6.JPG'>
+
+
+
+</a_4>
+<a_5>
+<img src='2.TV\F2_1_5.JPG'>
+
+
+
+</a_5>
+<a_6>
+<img src='2.TV\F2_1_4.JPG'>
+
+
+
+</a_6>
+<a_7>
+<img src='2.TV\F2_1_3.JPG'>
+
+
+
+</a_7>
+<a_8>
+<img src='2.TV\F2_1_2.JPG'>
+
+
+
+</a_8>
+<a_9>
+<img src='2.TV\F2_1_1.JPG'>
+
+
+
+</a_9>
+</Q_DATA>
